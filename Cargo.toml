@@ -158,4 +158,6 @@ web-sys = "0.3"
 wgpu = "0.18"
 winapi = "0.3"
 window_clipboard = "0.3"
-winit = { git = "https://github.com/iced-rs/winit.git", rev = "c52db2045d0a2f1b8d9923870de1d4ab1994146e", default-features = false }
+# winit = { git = "https://github.com/iced-rs/winit.git", rev = "c52db2045d0a2f1b8d9923870de1d4ab1994146e", default-features = false }
+# winit = { path = "../winit", default-features = false }
+winit = { git = "https://github.com/ChronosWS/winit.git", default-features = false }
